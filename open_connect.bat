@@ -1,0 +1,1 @@
+java -jar E:\jenkins\slave.jar -jnlpUrl http://10.10.23.221:8097/jenkins/computer/windows/slave-agent.jnlp -secret c71124dcf25dbeff576432d895077b2d7a2236b2e1076624503d28330bb2376d

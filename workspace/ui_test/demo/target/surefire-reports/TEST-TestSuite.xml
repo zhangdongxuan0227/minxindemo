@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="422.072" errors="0" skipped="0" tests="1" name="TestSuite">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="env.SYSTEMROOT" value="C:\Windows"/>
+    <property name="localRepository" value="E:\java\.m2\repository"/>
+    <property name="env.RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/ui_test/75/display/redirect"/>
+    <property name="env.JENKINS_SERVER_COOKIE" value="0a76677f88ee653a"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="env.PROMPT" value="$P$G"/>
+    <property name="os.name" value="Windows Server 2008 R2"/>
+    <property name="env.FP_NO_HOST_CHECK" value="NO"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_43\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_43\jre\classes"/>
+    <property name="env.COMPUTERNAME" value="WIN-QA9TFFU8DIG"/>
+    <property name="env.JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/ui_test/display/redirect"/>
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.runtime.version" value="1.6.0_43-b01"/>
+    <property name="env.BUILD_DISPLAY_NAME" value="#75"/>
+    <property name="env.HOMEPATH" value="\Users\Administrator"/>
+    <property name="xmlFileName" value="zonghe54.xml"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="maven.build.version" value="Apache Maven 3.2.5 (12a6b3acb947671f09b81f49094c53f426d8cea1; 2014-12-15T01:29:23+08:00)"/>
+    <property name="env.PATH" value="C:\Program Files\Java\jdk1.6.0_43/bin;C:\Program Files\Java\jdk1.6.0_43/bin;C:\Program Files\Java\jre7\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;E:\Tool\apache-maven-3.2.5\bin;E:\webdriver\skkuili\sikuliAPI\libs;E:\java\.m2\repository\org\sikuli\sikuli-script\1.1.0\libs;&quot;C:\Program Files\Java\jre7\bin&quot;"/>
+    <property name="user.language" value="zh"/>
+    <property name="env.WINDIR" value="C:\Windows"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_43\jre\bin"/>
+    <property name="classworlds.conf" value="E:\Tool\apache-maven-3.2.5\bin\..\bin\m2.conf"/>
+    <property name="java.version" value="1.6.0_43"/>
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 45 Stepping 7, GenuineIntel"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="env.NODE_NAME" value="windows"/>
+    <property name="env.CLIENTNAME" value="CY-20160322YCOM"/>
+    <property name="env.TEMP" value="C:\Users\ADMINI~1\AppData\Local\Temp\2"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_43\jre\lib\endorsed"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="env.JOB_BASE_NAME" value="ui_test"/>
+    <property name="env.HOMEDRIVE" value="C:"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env.SYSTEMDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="user.country" value="CN"/>
+    <property name="env.BUILD_NUMBER" value="75"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_43\jre"/>
+    <property name="env.APPDATA" value="C:\Users\Administrator\AppData\Roaming"/>
+    <property name="env.PUBLIC" value="C:\Users\Public"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="env.OS" value="Windows_NT"/>
+    <property name="os.version" value="6.1"/>
+    <property name="env.HUDSON_COOKIE" value="d21cebe8-38cf-4025-a721-9b440badf3c3"/>
+    <property name="webdriver.chrome.driver" value="E:\webdriver\chromedriver.exe"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="20.14-b01"/>
+    <property name="env.USERPROFILE" value="C:\Users\Administrator"/>
+    <property name="user.variant" value=""/>
+    <property name="env.RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/ui_test/75/display/redirect?page=changes"/>
+    <property name="env.JOB_NAME" value="ui_test"/>
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.6.0_43"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="env.TMP" value="C:\Users\ADMINI~1\AppData\Local\Temp\2"/>
+    <property name="env.PROGRAMFILES" value="C:\Program Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="env.BUILD_TAG" value="jenkins-ui_test-75"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="env.JENKINS_HOME" value="/root/.jenkins"/>
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files"/>
+    <property name="env.SESSIONNAME" value="RDP-Tcp#0"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="env.M2_HOME" value="E:\Tool\apache-maven-3.2.5\bin\.."/>
+    <property name="env.XMLFILENAME" value="zonghe54.xml"/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_43\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.6.0_43/bin;C:\Program Files\Java\jdk1.6.0_43/bin;C:\Program Files\Java\jre7\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;E:\Tool\apache-maven-3.2.5\bin;E:\webdriver\skkuili\sikuliAPI\libs;E:\java\.m2\repository\org\sikuli\sikuli-script\1.1.0\libs;&quot;C:\Program Files\Java\jre7\bin&quot;;."/>
+    <property name="env.NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="env.CLASSWORLDS_LAUNCHER" value="org.codehaus.plexus.classworlds.launcher.Launcher"/>
+    <property name="env.PSMODULEPATH" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="env.COMMONPROGRAMFILES(X86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="env.HUDSON_HOME" value="/root/.jenkins"/>
+    <property name="env.MAVEN_CMD_LINE_ARGS" value="test -DxmlFileName=zonghe54.xml"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="env.HUDSON_SERVER_COOKIE" value="0a76677f88ee653a"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="env.=E:" value="E:\jenkins\workspace\ui_test\demo"/>
+    <property name="maven.home" value="E:\Tool\apache-maven-3.2.5\bin\.."/>
+    <property name="java.class.path" value="E:\Tool\apache-maven-3.2.5\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -DxmlFileName=zonghe54.xml"/>
+    <property name="env.PROGRAMW6432" value="C:\Program Files"/>
+    <property name="env.EXECUTOR_NUMBER" value="0"/>
+    <property name="maven.version" value="3.2.5"/>
+    <property name="env.MAVEN_JAVA_EXE" value="&quot;C:\Program Files\Java\jdk1.6.0_43\bin\java.exe&quot;"/>
+    <property name="env.PROGRAMFILES(X86)" value="C:\Program Files (x86)"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env.LOGONSERVER" value="\\WIN-QA9TFFU8DIG"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="env.COMMONPROGRAMW6432" value="C:\Program Files\Common Files"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.HOME" value="C:\Users\Administrator"/>
+    <property name="surefire.test.class.path" value="E:\jenkins\workspace\ui_test\demo\target\test-classes;E:\jenkins\workspace\ui_test\demo\target\classes;E:\java\.m2\repository\org\seleniumhq\selenium\selenium-java\2.41.0\selenium-java-2.41.0.jar;E:\java\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.41.0\selenium-chrome-driver-2.41.0.jar;E:\java\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.41.0\selenium-htmlunit-driver-2.41.0.jar;E:\java\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.13\htmlunit-2.13.jar;E:\java\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;E:\java\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;E:\java\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;E:\java\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;E:\java\.m2\repository\org\apache\httpcomponents\httpmime\4.3.1\httpmime-4.3.1.jar;E:\java\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.13\htmlunit-core-js-2.13.jar;E:\java\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;E:\java\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;E:\java\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.19\nekohtml-1.9.19.jar;E:\java\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.11\cssparser-0.9.11.jar;E:\java\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;E:\java\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.12.v20130726\jetty-websocket-8.1.12.v20130726.jar;E:\java\.m2\repository\org\eclipse\jetty\jetty-util\8.1.12.v20130726\jetty-util-8.1.12.v20130726.jar;E:\java\.m2\repository\org\eclipse\jetty\jetty-io\8.1.12.v20130726\jetty-io-8.1.12.v20130726.jar;E:\java\.m2\repository\org\eclipse\jetty\jetty-http\8.1.12.v20130726\jetty-http-8.1.12.v20130726.jar;E:\java\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.41.0\selenium-firefox-driver-2.41.0.jar;E:\java\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;E:\java\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.41.0\selenium-ie-driver-2.41.0.jar;E:\java\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.41.0\selenium-safari-driver-2.41.0.jar;E:\java\.m2\repository\org\seleniumhq\selenium\selenium-support\2.41.0\selenium-support-2.41.0.jar;E:\java\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;E:\java\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;E:\java\.m2\repository\com\github\detro\phantomjsdriver\1.2.0\phantomjsdriver-1.2.0.jar;E:\java\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.39.0\selenium-remote-driver-2.39.0.jar;E:\java\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;E:\java\.m2\repository\org\json\json\20080701\json-20080701.jar;E:\java\.m2\repository\org\seleniumhq\selenium\selenium-api\2.39.0\selenium-api-2.39.0.jar;E:\java\.m2\repository\org\apache\httpcomponents\httpclient\4.3.1\httpclient-4.3.1.jar;E:\java\.m2\repository\org\apache\httpcomponents\httpcore\4.3\httpcore-4.3.jar;E:\java\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;E:\java\.m2\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;E:\java\.m2\repository\com\google\guava\guava\15.0\guava-15.0.jar;E:\java\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;E:\java\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;E:\java\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;E:\java\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\java\.m2\repository\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;E:\java\.m2\repository\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;E:\java\.m2\repository\org\testng\testng\6.8.1\testng-6.8.1.jar;E:\java\.m2\repository\junit\junit\4.10\junit-4.10.jar;E:\java\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;E:\java\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;E:\java\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;E:\java\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;E:\java\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;E:\java\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;E:\java\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;E:\java\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;E:\java\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;E:\java\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\java\.m2\repository\org\sikuli\sikuli-script\1.1.0\sikuli-script-1.1.0.jar;E:\java\.m2\repository\com\sikulix\sikulixapi\1.1.0\sikulixapi-1.1.0.jar;E:\java\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;E:\java\.m2\repository\com\melloware\jintellitype\1.3.7\jintellitype-1.3.7.jar;E:\java\.m2\repository\jxgrabkey\jxgrabkey\1.0\jxgrabkey-1.0.jar;E:\java\.m2\repository\org\swinglabs\swing-layout\1.0.3\swing-layout-1.0.3.jar;E:\java\.m2\repository\com\nativelibs4java\bridj\0.6.2\bridj-0.6.2.jar;E:\java\.m2\repository\com\sikulix\sikulixlibswin\1.1.0\sikulixlibswin-1.1.0.jar;E:\java\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\"/>
+    <property name="env.PROCESSOR_REVISION" value="2d07"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="env.COMSPEC" value="C:\Windows\system32\cmd.exe"/>
+    <property name="env.PROGRAMDATA" value="C:\ProgramData"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_43\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="E:\jenkins\workspace\ui_test\demo\target"/>
+    <property name="env.BUILD_ID" value="75"/>
+    <property name="env.LOCALAPPDATA" value="C:\Users\Administrator\AppData\Local"/>
+    <property name="env.MAVEN_HOME" value="E:\Tool\apache-maven-3.2.5"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="env.CLASSWORLDS_JAR" value="&quot;E:\Tool\apache-maven-3.2.5\bin\..\boot\plexus-classworlds-2.5.2.jar&quot;"/>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="basedir" value="E:\jenkins\workspace\ui_test\demo"/>
+    <property name="env.ERROR_CODE" value="0"/>
+    <property name="env.USERNAME" value="Administrator"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="env.WORKSPACE" value="E:\jenkins\workspace\ui_test"/>
+    <property name="env.USERDOMAIN" value="WIN-QA9TFFU8DIG"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="env.PROCESSOR_LEVEL" value="6"/>
+    <property name="env.NODE_LABELS" value="windows"/>
+  </properties>
+  <testcase time="420.451" classname="com.minxin.zonghe.ZongHeFlow" name="get"/>
+</testsuite>

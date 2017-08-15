@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[*******************添加用户成功****************]]>
+    </line>
+    <line>
+      <![CDATA[*******************分单成功****************]]>
+    </line>
+    <line>
+      <![CDATA[*******************质检成功****************]]>
+    </line>
+    <line>
+      <![CDATA[*******************信审分单成功****************]]>
+    </line>
+    <line>
+      <![CDATA[*******************初审成功****************]]>
+    </line>
+    <line>
+      <![CDATA[*******************终审成功****************]]>
+    </line>
+    <line>
+      <![CDATA[*******************确认借款****************]]>
+    </line>
+  </reporter-output>
+  <suite name="Simple Logger Suite" duration-ms="421054" started-at="2017-08-04T01:24:24Z" finished-at="2017-08-04T01:31:25Z">
+    <groups>
+    </groups>
+    <test name="Simple Logger test" duration-ms="421054" started-at="2017-08-04T01:24:24Z" finished-at="2017-08-04T01:31:25Z">
+      <class name="com.minxin.zonghe.ZongHeFlow">
+        <test-method status="PASS" signature="get(java.util.Map, org.testng.ITestContext)[pri:0, instance:com.minxin.zonghe.ZongHeFlow@c5a67c9]" name="get" duration-ms="420451" started-at="2017-08-04T09:24:24Z" data-provider="db1" finished-at="2017-08-04T09:31:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{amount=6000, loanType=78, name=二加息, period=1, phone=11100000338, repayMentWay=1, serviceChargeWay=2, shenfenzhen=654027198604030798}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b6aa42e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*******************添加用户成功****************]]>
+            </line>
+            <line>
+              <![CDATA[*******************分单成功****************]]>
+            </line>
+            <line>
+              <![CDATA[*******************质检成功****************]]>
+            </line>
+            <line>
+              <![CDATA[*******************信审分单成功****************]]>
+            </line>
+            <line>
+              <![CDATA[*******************初审成功****************]]>
+            </line>
+            <line>
+              <![CDATA[*******************终审成功****************]]>
+            </line>
+            <line>
+              <![CDATA[*******************确认借款****************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- get -->
+      </class> <!-- com.minxin.zonghe.ZongHeFlow -->
+    </test> <!-- Simple Logger test -->
+  </suite> <!-- Simple Logger Suite -->
+</testng-results>

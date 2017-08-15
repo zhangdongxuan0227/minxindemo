@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Simple Logger test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.008">
+  <properties />
+  
+  
+            <testcase name="get" time="0.000" classname="com.minxin.util.GetData" />
+                <testcase name="get" time="0.008" classname="com.minxin.util.GetData" />
+      
+</testsuite>

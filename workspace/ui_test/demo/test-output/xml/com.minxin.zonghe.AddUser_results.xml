@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Simple Logger test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="124.642">
+  <properties />
+  
+  
+            <testcase name="addUser" time="30.953" classname="com.minxin.zonghe.AddUser" />
+                <testcase name="addLianXiInfo" time="43.277" classname="com.minxin.zonghe.AddUser" />
+                <testcase name="addBorrow" time="50.412" classname="com.minxin.zonghe.AddUser" />
+      
+</testsuite>

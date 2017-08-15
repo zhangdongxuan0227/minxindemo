@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Simple Logger Suite" >
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+
+    <test name="Simple Logger test">
+        <parameter name="url" value="http://10.10.22.95:8097/minxinmatch/welcome/"/>
+        <parameter name="kefuname" value="kefu01"/>
+        <parameter name="fendanname" value="ffendan"/>
+        <parameter name="fchushenname" value="fchushen"/>
+        <parameter name="fzhongshenname" value="fzhongshen"/>
+        <parameter name="qjingli01name" value="qjingli01"/>
+        <parameter name="quanzhengren01" value="quanzhengren"/>
+        <parameter name="diyapassword" value="1"/>
+        <parameter name="xiaozhi" value="xiaozhi"/>
+
+        <classes>
+            <class name="com.minxin.fangdai.FangDaiFlow" />
+
+
+        </classes>
+
+    </test>
+
+</suite>

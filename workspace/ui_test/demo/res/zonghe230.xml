@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Simple Logger Suite" >
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+
+    <test name="Simple Logger test">
+        <parameter name="url" value="http://10.10.23.230/minxinloan/welcome"/>
+        <parameter name="zname" value="zhaolong1718"/>
+        <parameter name="zfendan" value="zhangfeng"/>
+        <parameter name="zxinshen" value="Robin"/>
+        <parameter name="zchushen" value="cscs"/>
+        <parameter name="zzhongshen" value="mameijing"/>
+
+        <parameter name="zpassword" value="1"/>
+        <parameter name="zRobin" value="123457"/>
+        <classes>
+            <class name="com.minxin.zonghe.ZongHeFlow" />
+
+
+        </classes>
+
+    </test>
+
+</suite>

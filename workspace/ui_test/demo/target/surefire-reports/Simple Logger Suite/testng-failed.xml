@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Simple Logger Suite]">
+  <parameter name="zpassword" value="1"/>
+  <parameter name="zxinshen" value="Robin"/>
+  <parameter name="zzhongshen" value="mameijing"/>
+  <parameter name="zfendan" value="zhangfeng"/>
+  <parameter name="zname" value="zhanglijuan0464"/>
+  <parameter name="zchushen" value="cscs"/>
+  <parameter name="url" value="http://10.10.23.122/minxinloan/welcome"/>
+  <parameter name="zRobin" value="123457"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Simple Logger test(failed)">
+    <parameter name="zpassword" value="1"/>
+    <parameter name="zxinshen" value="Robin"/>
+    <parameter name="zzhongshen" value="mameijing"/>
+    <parameter name="zfendan" value="zhangfeng"/>
+    <parameter name="zchushen" value="cscs"/>
+    <parameter name="zname" value="zhanglijuan0464"/>
+    <parameter name="zRobin" value="123457"/>
+    <parameter name="url" value="http://10.10.23.122/minxinloan/welcome"/>
+    <classes>
+      <class name="com.minxin.zonghe.ZongHeFlow">
+        <methods>
+          <include name="get" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.minxin.zonghe.ZongHeFlow -->
+    </classes>
+  </test> <!-- Simple Logger test(failed) -->
+</suite> <!-- Failed suite [Simple Logger Suite] -->

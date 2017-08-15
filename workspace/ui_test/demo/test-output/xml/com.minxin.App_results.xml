@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Simple Logger test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.837">
+  <properties />
+  
+  
+            <testcase name="openBrowe" time="4.837" classname="com.minxin.App" />
+      
+</testsuite>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Simple Logger Suite" >
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+
+    <test name="Simple Logger test">
+        <parameter name="url" value="http://10.10.23.230/minxinloan/welcome"/>
+        <parameter name="zname" value="zhaolong1718"/>
+        <parameter name="zfendan" value="zhaolong1718"/>
+        <parameter name="zxinshen" value="Robin"/>
+        <parameter name="zchushen" value="luotingting"/>
+        <parameter name="zzhongshen" value="mameijing"/>
+
+        <parameter name="zpassword" value="1"/>
+        <parameter name="zRobin" value="123457"/>
+        <classes>
+            <class name="com.minxin.util.GetData" />
+            <class name="com.minxin.zonghe.AddUser" >
+            <methods>
+                <!-- 注册用户-->
+                <include name ="addUser" />
+                <!-- 添加联系人-->
+                <include name ="addLianXiInfo" />
+                <!-- 申请借款-->
+                <include name ="addBorrow" />
+
+            </methods>
+            </class>
+            <!--质检 分单-->
+            <class name="com.minxin.zonghe.FenDan" />
+
+            <!-- 质检-->
+            <class name="com.minxin.zonghe.ZhiJian" />
+            <!-- 信审分单-->
+            <class name="com.minxin.zonghe.XSFenDan" />
+            <!-- 信审初审-->
+            <class name="com.minxin.zonghe.ChuShen" />
+            <!-- 信审终审-->
+            <class name="com.minxin.zonghe.ZhongShen" />
+            <!-- Robin确认-->
+            <class name="com.minxin.zonghe.Sure" />
+
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Simple Logger test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.830">
+  <properties />
+  
+  
+            <testcase name="quit" time="10.830" classname="com.minxin.zonghe.PageAction" />
+      
+</testsuite>
